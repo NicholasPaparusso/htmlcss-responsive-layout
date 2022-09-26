@@ -54,3 +54,45 @@
 
 
 /* MEDIA DESCRIPTION */
+/* MEDIA PLANNING */
+@media screen and (min-width:1000px) {
+  .planning .row {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .planning .col {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width:800px) and (max-width: 1000px){
+ .planning h2{
+  font-size: 10vw;
+ } 
+}
+
+@media screen and (min-width:1300px) {
+  .planning .row{
+    width: 60%;
+    margin: 0 auto;
+  }
+  .planning .col.left{
+    width: 60%;
+    margin-right: 10%;
+  }
+  .planning .col.right {
+    width: 40%;
+  }
+
+  /* .planning .col.left {
+    position: absolute;
+  }
+
+  .planning .col.right {
+    position: absolute;
+  } */
+
+}
+
+/* MEDIA PLANNING */
