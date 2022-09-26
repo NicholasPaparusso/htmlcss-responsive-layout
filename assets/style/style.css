@@ -1,0 +1,159 @@
+/* GENERAL */
+*,
+*::after,
+*::before
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ ul, ol{
+  list-style: none;
+ }
+
+ a{
+  text-decoration: none;
+ }
+
+ body{
+  font-family: 'Roboto Condensed', sans-serif;
+ }
+.button{
+  border-radius: 50px;
+}
+
+.box-square{
+  border-radius: 15px;
+}
+.box-square h4{
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+/* GENERAL */
+/* Utilities */
+ .container{
+  width: 90%;
+  padding: 0 10px;
+  margin: 0 auto;
+ }
+
+/* Utilities */
+/* Header */
+header{
+  background-color: #0084fd;
+  height: 75px;
+  position: fixed;
+  top: 0%;
+  right: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+header nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+header nav ul{
+  display: flex;
+  gap: 30px;
+  display: none;
+}
+
+
+header nav ul li a{
+  color: white;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+header nav .button{
+  vertical-align:text-top;
+  display: inline-block;
+  width: 120px;
+  height: 35px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  line-height: 35px;
+}
+
+header i{
+  color: white;
+  font-size: 1.8em;
+  cursor: pointer;
+}
+
+header i:hover{
+  font-size: 2em;
+}
+/* Header */
+/* Section description */
+.description{
+  margin-top: 75px;
+  padding: 50px 0 55px 0;
+}
+
+.description .box-square{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #b5ddff;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.description .box-square h4 a{
+  color:#0084fd;
+}
+
+.description .box-square >i{
+  font-size: 5em;
+  color:#0084fd;
+  padding-bottom: 20px;
+
+}
+
+.description .box-square .left-text{
+  text-align: left;
+}
+
+.description .box-square p{
+  padding: 20px 0;
+  font-size: 1.2em;
+  color: #5a6e7f;
+  font-weight: 600;
+}
+
+.description .box-square .button{
+  background-color: #0084fd;
+  width: 210px;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.description .box-square .button i{
+  margin-right: .5em;
+}
+
+.description .box-square img{
+  height: 270px;
+  width: 200px;
+  object-fit: cover;
+  align-self: center;
+  margin-top: 40px;
+}
+
+.description .box-square:first-of-type{
+  padding: 30px 30px 0 30px;
+}
+/* Section description */
