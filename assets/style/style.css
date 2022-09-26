@@ -164,7 +164,7 @@ header i:hover{
 /* Section planning */
 .planning{
   background-color:#9792e4 ;
-  padding: 40px 20px;
+  padding: 80px 20px;
 }
 
 .planning .col{
@@ -219,3 +219,81 @@ header i:hover{
   line-height: 50px;
 }
 /* Section planning */
+
+/* Section Testimonials */
+.testimonials{
+  padding: 50px 15px 100px 15px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  text-align: center;
+}
+
+.testimonials h5{
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+.testimonials h2{
+  color: #9792e4;
+  font-size: 2.5em;
+}
+
+.testimonials p{
+  line-height: 40px;
+  font-size: 1.4em;
+  padding: 20px;
+}
+
+.testimonials .box-rounded{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #9792e4;
+  padding: 40px 20px;
+  color: white;
+  gap: 20px
+}
+
+.testimonials .box-rounded img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.testimonials .box-rounded p::after{
+  font-family: "Font Awesome 6 Free";
+  content: "\f10e";
+  font-weight: 900;
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+.testimonials .box-rounded p::before{
+  font-family: "Font Awesome 6 Free";
+  content: "\f10d";
+  font-weight: 900;
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+.testimonials .box-rounded h4{
+  text-transform: uppercase;
+}
+/* Section Testimonials */
+
+/* Section Benefits */
+.benefits{
+  background-color: #9792e4;
+  padding: 50px 20px ;
+}
+
+.benefits h2{
+  text-align: center;
+  color: white;
+  font-size: 2.5em;
+}
+/* Section Benefits */
