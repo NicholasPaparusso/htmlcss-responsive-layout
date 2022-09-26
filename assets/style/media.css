@@ -88,10 +88,23 @@
 
 /* MEDIA PLANNING */
 
-/* MEDIA TESTIMONIALS */
+/* MEDIA TESTIMONIALS  + BENEFITS*/
 @media screen and (min-width: 800px) {
-   .testimonials h2{
+   .testimonials h2 , .benefits h2{
     font-size: 3em;
   }
+  .benefits .row{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px
+  }
+  .benefits .box-square{
+    width: calc((100% / 2 ) - 20px );
+  }
 }
-/* MEDIA TESTIMONIALS */
+
+@media screen and (min-width: 1450px) {
+  .benefits .row .box-square{
+    width: calc((100% / 3 ) - 20px);
+  }
+}

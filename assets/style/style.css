@@ -291,9 +291,49 @@ header i:hover{
   padding: 50px 20px ;
 }
 
+.benefits .row{
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
 .benefits h2{
   text-align: center;
   color: white;
   font-size: 2.5em;
+  margin-bottom: 50px;
+}
+
+.benefits .box-square{
+  background-color: white;
+  color: #9792e4;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.benefits .box-square h3{
+  font-size: 2em;
+}
+
+.benefits .box-square h3:first-of-type{
+  font-size: 3em;
+}
+
+.benefits .box-square p{
+  font-size: 1.2em;
+  color: #5a6e7f;
+  line-height: 30px;
+}
+
+.benefits .button{
+  background-color: #9792e4;
+  color: white;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
 }
 /* Section Benefits */
