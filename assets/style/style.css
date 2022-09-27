@@ -38,7 +38,7 @@ h4{
 /* Utilities */
  .container{
   width: 90%;
-  padding: 0 10px;
+  padding: 0 20px;
   margin: 0 auto;
  }
 
@@ -403,3 +403,82 @@ header i:hover{
   row-gap: 30px;
 }
 /* About us */
+/* Get started */
+.get-started{
+  background-color: #9792e4;
+
+}
+.get-started > .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+  padding: 50px 20px;
+}
+
+.get-started h5, h2, h1, p, span, a{
+  text-align: center;
+}
+
+.get-started h5{
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #d5d4f4;
+}
+
+.get-started h2{
+  color: white;
+  font-size: 2.5em;
+}
+
+.get-started h1{
+  color:#fdc15f;
+  font-size: 4em;
+}
+.get-started p{
+  font-size: 1.2em;
+  line-height: 30px;
+  color: white;
+}
+
+.get-started .button{
+  background-color: white;
+  color: #9792e4;
+  width: 270px;
+  height: 65px;
+  line-height: 65px;
+  font-size: 1.5em;
+}
+
+.get-started a, span{
+  color: white;
+}
+
+.get-started span > a:hover{
+  text-decoration: underline;
+}
+/* Get started */
+
+/* Footer */
+footer{
+  background-color: #333333;
+  color: white;
+  font-size: .9em;
+}
+
+footer a{
+  color: #9792e4;
+}
+
+footer a:hover{
+  text-decoration: underline ;
+}
+
+footer .top{
+  padding: 50px 20px;
+}
+
+footer .bottom{
+  padding-bottom: 50px;
+}
+/* Footer */

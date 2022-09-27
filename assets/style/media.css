@@ -141,3 +141,21 @@
 }
 
 /* ABOUT US */
+
+/* GET STARTED + FOOTER */
+@media screen and (min-width: 800px) {
+  .get-started .container,
+  footer .container
+  {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .get-started .container,
+  footer .container
+  {
+    width: 40%;
+  }
+}
+/* GET STARTED + FOOTER */
