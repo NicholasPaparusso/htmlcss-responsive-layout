@@ -167,11 +167,6 @@ header i:hover{
   padding: 80px 20px;
 }
 
-.planning .col{
-  width: 90%;
-  margin: 0 auto;
-}
-
 .planning .col.left img{
   object-fit: cover;
   width: 100%;
@@ -291,7 +286,7 @@ header i:hover{
   padding: 50px 20px ;
 }
 
-.benefits .row{
+.benefits .container{
   display: flex;
   flex-direction: column;
   row-gap: 30px;
